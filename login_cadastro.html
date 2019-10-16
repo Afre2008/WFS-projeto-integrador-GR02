@@ -16,7 +16,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
 
             <a class="navbar-brand" href="#">
-                <img src="Image/logo 10.png" alt="logo" style="flex: 20px" height="100" width="100">
+                <img src="Image/logo 10.png" alt="logo" style="flex: 30px" height="100" width="100">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -49,29 +49,35 @@
   <div class="container" >
     <a class="links" id="paracadastro"></a>
     <a class="links" id="paralogin"></a>
-     
-    <div class="content">      
-      <!--FORMULÁRIO DE LOGIN-->
-      <div id="login">
-        <form method="post" action=""> 
-          <h1>Login</h1> 
-          <p> 
-            <label for="nome_login">Nome Completo</label>
-            <input id="nome_login" name="nome_login" required="required" type="text" placeholder="ex: name@example.com"/>
-          </p>
+  <div class="content">      
+
+    <!--FORMULÁRIO DE LOGIN-->
+
+  <div id="login">
+      <form method="post" action=""> 
+        <h1>Login</h1> 
+        <!-- <p>  -->
+          <!-- <label for="nome_login">Nome Completo</label> -->
+          <!-- <input id="nome_login" name="nome_login" required="required" type="text" placeholder=""/> -->
+        <!-- </p> -->
            
-          <p> 
-            <label for="email_login">Seu e-mail</label>
-            <input id="email_login" name="email_login" required="required" type="password" placeholder="ex. senha" /> 
-          </p>
+        <p> 
+          <label for="email_login">Seu e-mail</label>
+          <input id="email_login" name="email_login" required="required" type="password" placeholder="nome@exemplo.com" /> 
+        </p>
+
+        <p> 
+          <label for="senha_cad">Sua senha</label>
+          <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+        </p>
            
-          <p> 
-            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
-            <label for="manterlogado">Manter-me logado</label>
-          </p>
+        <p> 
+          <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+          <label for="manterlogado">Manter-me logado</label>
+        </p>
            
-          <p> 
-            <input type="submit" value="Logar" /> 
+        <p> 
+          <input type="submit" value="Logar" /> 
           </p>
            
           <p class="link">
@@ -88,12 +94,12 @@
            
           <p> 
             <label for="nome_cad">Seu nome</label>
-            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Nome" />
+            <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Nome completo" />
           </p>
            
           <p> 
             <label for="email_cad">Seu e-mail</label>
-            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="name@example.com"/> 
+            <input id="email_cad" name="email_cad" required="required" type="email" placeholder="nome@exemplo.com"/> 
           </p>
            
           <p> 
