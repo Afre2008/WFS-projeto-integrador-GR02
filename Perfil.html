@@ -14,21 +14,35 @@
 
     <body>
         <!-- START NAV -->
-        <nav class="navbar is-white">
-            <div class="container">
-                <div class="navbar-brand">
-                    <div data-target="navMenu" class="navbar-burger burger"><span></span><span></span><span></span>
-                    </div>
+        <header class="menu">
+            <div class="menu_logo"><img src="./imagens/menu_logo.png" alt="logo"></div>
+            <nav class="menu_nav">
+                <ul class="menu_nav_lista">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="Perfil.html">Perfil</a></li>
+                    <li><a href="#">Explorar</a></li>
+                    <li><a href="Sobre.html">Sobre Nós</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="menu_btn_post">Postar Cumpom</button>    
+        </header>
+        <main class="conteudo">
+            <section class="topo">
+                <div class="topo_busca">
+                    <form action="search" class="search search_form" method="get">
+                        <input id="btnBusca" class="btn_busca" type="submit"/>
+                        <input id="txtbusca" class="txt_busca" name="q" type="text" value="" placeholder="Buscar cupom" />
+                    </form>
                 </div>
-                <div id="navMenu" class="navbar-menu">
-                    <div class="navbar-start"></div>
-                </div>
-            </div>
-        </nav><!-- END NAV -->
+                <form method="get" action="./login_cadastro.html"><button class="topo_btn" type="submit">Login/Cadastro</button></form>
+                
+            </section>
+        
+        <!-- END NAV -->
         <div class="container">
             <div class="columns">
-                <div class="column is-3"></div>
-                <div class="column is-9">
+                <div class="column is-11">
                     <nav aria-label="breadcrumbs" class="breadcrumb">
                         <ul>
                             <li></li>
