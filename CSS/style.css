@@ -3,6 +3,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+/* Topo e Menu */
+
 .menu {
     background-color: #00bdb1;
     color: #ffffff;
@@ -113,6 +115,8 @@ body {
     outline: none;
 }
 
+/* Página principal e cards */
+
 .selecao {
     display: flex;
     justify-content: flex-end;
@@ -185,6 +189,8 @@ img.card-img-top:hover {
     color: #ffffff;
 }
 
+/* Modal */
+
 
 .img-avatar{
     display: block;
@@ -215,3 +221,62 @@ img.card-img-top:hover {
     margin-right: auto;
     font-style: initial;
 }
+
+/* Perfil */
+
+
+/* Explorar */
+
+
+/* Sobre Nós */
+
+
+/* Contato */
+
+.contato_form {
+    margin: 65px auto;
+    width: 40%;
+    background-color: #efefef;
+    padding: 35px;
+    font-size: 15px;
+}
+
+.titulo_contato {
+    margin-bottom: 25px;
+    font-size: 38px;
+}
+
+.txt_contato {
+    margin-bottom: 25px;
+}
+
+.contato_campo {
+    border-radius: 0;
+    border: none;
+    font-size: 15px;
+    outline: none;
+}
+
+.contato_campo:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.btn_contato {
+    background-color: #00bdb1;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 4px 15px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #FF3B3E;
+}
+
+/* Postagem */
+
+
