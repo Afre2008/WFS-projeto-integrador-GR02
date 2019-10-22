@@ -279,4 +279,66 @@ img.card-img-top:hover {
 
 /* Postagem */
 
+/* Modal */
+
+.modal-content {
+    border: none;
+    border-radius: 0;
+}
+
+.modal-title {
+    font-size: 19px;
+}
+
+.img-avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-modal{
+    font-size: 16px;
+    text-align: center;
+}
+
+.dropdown-menu {
+    border-radius: 0px;
+}
+
+.dropdown-item {
+    color: #212121;
+    font-size: 15px;
+}
+
+#btn-copiar{
+    background-color: #00bdb1;
+    color: white;
+    font-style: initial;
+    border: none;
+    border-radius: 0;
+}
+
+#btn-copiar:hover {
+    background-color: #FF3B3E;
+}
+
+.avaliacao{ 
+    text-align: center;
+}
+
+#btnfooterfechar{
+    background-color: #00bdb1;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: initial;
+    border: none;
+    border-radius: 28px;
+    padding: 6px 16px;
+}
+
+#btnfooterfechar:hover {
+    background-color: #FF3B3E;
+}
 

@@ -15,10 +15,10 @@
         <nav class="menu_nav">
             <ul class="menu_nav_lista">
                 <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="Perfil.html">Perfil</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
                 <li><a href="#">Explorar</a></li>
-                <li><a href="Sobre.html">Sobre Nós</a></li>
-                <li><a href="Contato.html">Contato</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
         <button class="menu_btn_post">Postar Cupom</button>    
@@ -94,40 +94,31 @@
                 </div>
         </section>
   <!--Fim da página de cupons-->
-  <!-- Inicio Modal-->
 
+  <!-- Inicio Modal-->
   <div class="modal" id="sitemodal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-
         <div class="modal-header">
-          <h5 class="modal-title"> 50% DE DESCONTO PARA CORRIDAS NO UBER</h5>
+          <h5 class="modal-title"> R$ 10,00 DE DESCONTO EM QUALQUER BEBIDA</h5>
           <button type="button" class="close" data-dismiss="modal">
             <span>X</span>
           </button>
         </div>
-
         <div class="modal-body">
-
           <div class="container-fluid">
-
             <div class="row">
-
               <div class="col-12">
-                <img class="img-avatar" src="imgs/batman-bat-512.png" width="100px" height="100px"
-                  alt="Avatar do User rsrsrs"> <br>
+                <img class="img-avatar" src="./imagens/card1.jpg" width="50%"
+                  alt="Imagem da marca">
                 <hr>
-                <h2 class="content-modal"> Copie o código abaixo pagar ganhar seu desconto (:</h2>
+                <h2 class="content-modal"> Copie o código abaixo para ganhar seu desconto!</h2>
                 <hr>
               </div>
-
             </div>
-
             <div class="row">
-
               <div class="col-12">
                 <br>
-
                 <script>
                   function copiarTexto() {
                     var textoCopiado = document.getElementById("link");
@@ -135,7 +126,6 @@
                     document.execCommand("Copy");
                   }
                 </script>
-
                 <div class="input-group">
                   <input type="text" id="link" name="link" class="form-control"
                     aria-label="Text input with segmented dropdown button">
@@ -151,9 +141,8 @@
                       <a class="dropdown-item" href="#">Comentar sobre o Cupom</a>
                       <a class="dropdown-item" href="#">Reportar Cupom</a>
                       <div role="separator" class="dropdown-divider"></div>
-                      <hr>
-                      <a class="dropdown-item" href="#">Compartilhar</a>
-                      <hr>
+                      <a class="dropdown-item" href="#">COMPARTILHAR</a>
+                      <div role="separator" class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">WhatsApp</a>
                       <a class="dropdown-item" href="#">Twitter</a>
                       <a class="dropdown-item" href="#">Facebook</a>
@@ -164,7 +153,7 @@
               </div>            
 
             </div>
-          </div>
+          </div> <br>
 
           <div class="container-fluid">
             <div class="row">
@@ -181,7 +170,7 @@
             <input name="rating" id="star-4" value="4" type="radio" class="radio radio-4"/>
             <input name="rating" id="star-5" value="5" type="radio" class="radio radio-5"/>
           </div>
-        </div>
+        </div> 
 
         <div class="modal-footer">
           <button  id="btnfooterfechar" type="button" id="btn-copiar" class="btn-danger btn btn-outline-secondary" data-dismiss="modal">Fechar</button>
