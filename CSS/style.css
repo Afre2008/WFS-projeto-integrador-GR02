@@ -14,7 +14,7 @@ body {
     position: fixed;
     width: 18%;
     height: 100%;
-    padding: 15px 35px;
+    padding: 30px 35px;
     z-index: 1;
     top: 0;
     left: 0;
@@ -22,14 +22,14 @@ body {
 }
 
 .menu_logo img {
-    width: 100%;
+    width: 95%;
 }
 
 .menu_nav_lista {
     text-align: center;
     list-style: none;
     padding: 0;
-    margin-top: 40px;
+    margin-top: 48px;
     line-height: 38px;
     color: #ffffff;
     font-size: 19px;;
@@ -152,6 +152,7 @@ a:hover {
 .card-img-top {
     height: 160px;
     object-fit: cover;
+    border-radius: 0;
     transition: .3s ease;
 }
 
@@ -222,6 +223,138 @@ img.card-img-top:hover {
     font-style: initial;
 }
 
+/* Cadastro */
+
+a {
+    text-decoration: none;
+
+  }
+  
+  .content {
+    width: 500px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;   
+  }
+  
+
+  .titulo_form {
+    font-size: 38px;
+    color: #212121;
+    padding: 2px 0 10px 0;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+   
+  label {
+    color: #212121;
+    position: relative;
+    font-size: 15px;
+  }
+  
+
+  ::-webkit-input-placeholder  {
+    color: #bebcbc;
+  }
+   
+  input:-moz-placeholder,
+  textarea:-moz-placeholder {
+    color: #bebcbc;
+  }
+  
+
+  input {
+    outline: none;
+  }
+   
+  .campo_form {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+   
+  .btn_cadastro_login {
+    width: 100%!important;
+    cursor: pointer;
+    border: none;
+    background: #00bdb1;
+    padding: 8px 0px;
+    margin-top: 15px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: all 0.2s linear;
+  }
+   
+    .btn_cadastro_login:hover {
+    background: #FF3B3E;
+  }
+  
+
+  .link{
+    position: absolute;
+    background: #e6e6e6;
+    color: #7f7c7c;
+    left: 0px;
+    height: 20px;
+    width: 82%;
+    font-size: 14px;
+    text-align: right;
+  }
+   
+  .link a {
+    font-weight: bold;
+    background: #f7f8f1;
+    padding: 8px;
+    color: #212121;
+    margin-left: 10px; 
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+  }
+   
+  .link a:hover {
+    color: #ffffff;
+    background: #FF3B3E;
+    text-decoration: none;
+  }
+  
+
+  #cadastro, 
+  #login {
+  position: absolute;
+  top: 0px;
+  width: 82%;   
+  padding: 20px 6% 55px 6%;
+  margin: 65px;;
+  background: #efefef;
+  border-radius: 0px;
+  -webkit-box-shadow: 5px;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+#paracadastro:target ~ .content #cadastro,
+#paralogin:target ~ .content #login {
+  z-index: 2;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
+}
+ 
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro {
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
 /* Perfil */
 
 
@@ -255,6 +388,7 @@ img.card-img-top:hover {
     border: none;
     font-size: 15px;
     outline: none;
+    padding: 8px;
 }
 
 .contato_campo:focus {
@@ -294,6 +428,7 @@ img.card-img-top:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 70%;
 }
 
 .content-modal{
@@ -308,6 +443,21 @@ img.card-img-top:hover {
 .dropdown-item {
     color: #212121;
     font-size: 15px;
+}
+
+.dropdown-item:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #FF3B3E;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.dropdown-span {
+        font-size: 14px;
+        padding: 22px;
 }
 
 #btn-copiar{
