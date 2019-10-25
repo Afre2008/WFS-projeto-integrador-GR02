@@ -59,6 +59,10 @@ body {
     transform: scale(1.1); 
 }
 
+.menu_btn_post:focus {
+    outline: 0;
+}
+
 .conteudo {
     display: flex;
     flex-direction: column;
@@ -84,6 +88,10 @@ body {
     color: #ffffff;
     box-sizing: border-box;
     font-size: 14px;
+}
+
+.topo_btn:focus {
+    outline: 0;
 }
 
 .search_form {
@@ -130,6 +138,11 @@ body {
 
 .selecao_btn_a:hover {
     color: #FF3B3E;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
 }
 
 a:hover {
