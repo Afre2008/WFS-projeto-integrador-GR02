@@ -469,8 +469,22 @@ a {
     background-color: #FF3B3E;
 }
 
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF3B3E;
+}
+
 .form-control {
     border-radius: 0;
+}
+
+.form-control:focus {
+    color: #212121;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
 }
 
 .dropdown-span {
