@@ -3,7 +3,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-/* Topo e Menu */
+
+
+/* TOPO E NAVBAR */
 
 .menu {
     background-color: #00bdb1;
@@ -123,7 +125,10 @@ body {
     outline: none;
 }
 
-/* Página principal e cards */
+
+
+
+/* PÁGINA PRINCIPAL E CARDS */
 
 .selecao {
     display: flex;
@@ -203,254 +208,12 @@ img.card-img-top:hover {
     color: #ffffff;
 }
 
-/* Modal */
 
 
-.img-avatar{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.content-modal{
-    font-size: 18px;
-    text-align: center;
-}
-
-#btn-copiar{
-    background-color: #00bdb1;
-    color: white;
-    font-style: initial;
-}
-
-.avaliacao{ 
-    text-align: center;
-}
-
-#btnfooterfechar{
-    background-color: #00bdb1;
-    color: white;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-style: initial;
-}
-
-/* Cadastro */
-
-a {
-    text-decoration: none;
-
-  }
-  
-  .content {
-    width: 500px;
-    min-height: 560px;    
-    margin: 0px auto;
-    position: relative;   
-  }
-  
-
-  .titulo_form {
-    font-size: 38px;
-    color: #212121;
-    padding: 2px 0 10px 0;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-   
-  label {
-    color: #212121;
-    position: relative;
-    font-size: 15px;
-  }
-  
-
-  ::-webkit-input-placeholder  {
-    color: #bebcbc;
-  }
-   
-  input:-moz-placeholder,
-  textarea:-moz-placeholder {
-    color: #bebcbc;
-  }
-  
-
-  input {
-    outline: none;
-  }
-   
-  .campo_form {
-    width: 100%;
-    padding: 8px;
-    border: none;
-    -webkit-transition: all 0.2s linear;
-    transition: all 0.2s linear;
-  }
-   
-  .btn_cadastro_login {
-    width: 100%!important;
-    cursor: pointer;
-    border: none;
-    background: #00bdb1;
-    padding: 8px 0px;
-    margin-top: 15px;
-    border-radius: 30px;
-    color: #fff;
-    font-size: 20px;
-    margin-bottom: 15px;
-    transition: all 0.2s linear;
-  }
-   
-    .btn_cadastro_login:hover {
-    background: #FF3B3E;
-  }
-  
-
-  .link{
-    position: absolute;
-    background: #e6e6e6;
-    color: #7f7c7c;
-    left: 0px;
-    height: 20px;
-    width: 82%;
-    font-size: 14px;
-    text-align: right;
-  }
-   
-  .link a {
-    font-weight: bold;
-    background: #f7f8f1;
-    padding: 8px;
-    color: #212121;
-    margin-left: 10px; 
-    -webkit-transition: all 0.4s linear;
-    transition: all 0.4s  linear;
-  }
-   
-  .link a:hover {
-    color: #ffffff;
-    background: #FF3B3E;
-    text-decoration: none;
-  }
-  
-
-  #cadastro, 
-  #login {
-  position: absolute;
-  top: 0px;
-  width: 82%;   
-  padding: 20px 6% 55px 6%;
-  margin: 65px;;
-  background: #efefef;
-  border-radius: 0px;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-fill-mode: both;
-  animation-duration: 0.5s;
-  animation-timing-function: ease;
-  animation-fill-mode: both;
-}
-
-#paracadastro:target ~ .content #cadastro,
-#paralogin:target ~ .content #login {
-  z-index: 2;
-  -webkit-animation-name: fadeInLeft;
-  animation-name: fadeInLeft;
-  -webkit-animation-delay: .1s;
-  animation-delay: .1s;
-}
- 
-#registro:target ~ .content #login,
-#paralogin:target ~ .content #cadastro {
-  -webkit-animation-name: fadeOutLeft;
-  animation-name: fadeOutLeft;
-}
-
-/* Perfil */
 
 
-/* Explorar */
+/* MODAL */
 
-
-/* Sobre Nós */
-
-.sobre {
-    width: 90%;
-    margin-left: 55px;
-    margin-top: 70px;
-}
-
-.rs_icons {
-    width: 65%;
-}
-
-.redes_sociais_lista {
-    list-style: none;
-    display: flex;
-    flex-wrap: nowrap;
-    padding-top: 35px;
-}
-
-/* Contato */
-
-.contato_form {
-    margin: 65px auto;
-    width: 40%;
-    background-color: #efefef;
-    padding: 35px;
-    font-size: 15px;
-}
-
-.titulo_contato {
-    margin-bottom: 25px;
-    font-size: 38px;
-}
-
-.txt_contato {
-    margin-bottom: 25px;
-}
-
-.contato_campo {
-    border-radius: 0;
-    border: none;
-    font-size: 15px;
-    outline: none;
-    padding: 8px;
-}
-
-.contato_campo:focus {
-    outline: none;
-    border: none;
-    box-shadow: none;
-}
-
-.area_texto {
-    width: 100%;
-    border: 0;
-}
-
-.area_texto:focus {
-    outline: none;
-}
-
-.btn_contato {
-    background-color: #00bdb1;
-    color: #ffffff;
-    border-radius: 25px;
-    font-size: 20px;
-    padding: 4px 15px;
-    margin-top: 15px;
-}
-
-.btn:hover {
-    color: #ffffff;
-    background-color: #FF3B3E;
-}
-
-/* Postagem */
-
-/* Modal */
 
 .modal-content {
     border: none;
@@ -542,4 +305,284 @@ a {
 #btnfooterfechar:hover {
     background-color: #FF3B3E;
 }
+
+
+
+
+/* CADASTRO */
+
+a {
+    text-decoration: none;
+
+  }
+  
+  .content {
+    width: 500px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;   
+  }
+  
+
+  .titulo_form {
+    font-size: 38px;
+    color: #212121;
+    padding: 2px 0 10px 0;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+   
+  label {
+    color: #212121;
+    position: relative;
+    font-size: 15px;
+  }
+
+
+   
+  .campo_form {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+   
+  .btn_cadastro_login {
+    width: 100%!important;
+    cursor: pointer;
+    border: none;
+    background: #00bdb1;
+    padding: 8px 0px;
+    margin-top: 15px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+    transition: all 0.2s linear;
+  }
+   
+    .btn_cadastro_login:hover {
+    background: #FF3B3E;
+  }
+  
+
+  .link{
+    position: absolute;
+    background: #e6e6e6;
+    color: #7f7c7c;
+    left: 0px;
+    height: 20px;
+    width: 82%;
+    font-size: 14px;
+    text-align: right;
+  }
+   
+  .link a {
+    font-weight: bold;
+    background: #f7f8f1;
+    padding: 8px;
+    color: #212121;
+    margin-left: 10px; 
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s  linear;
+  }
+   
+  .link a:hover {
+    color: #ffffff;
+    background: #FF3B3E;
+    text-decoration: none;
+  }
+  
+
+  #cadastro, 
+  #login {
+  position: absolute;
+  top: 0px;
+  width: 82%;   
+  padding: 20px 6% 55px 6%;
+  margin: 65px;;
+  background: #efefef;
+  border-radius: 0px;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+}
+
+#paracadastro:target ~ .content #cadastro,
+#paralogin:target ~ .content #login {
+  z-index: 2;
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-delay: .1s;
+  animation-delay: .1s;
+}
+ 
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro {
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
+}
+
+
+
+
+
+/* PERFIL */
+
+.columns {
+	width: 100%;
+	margin-left: 0;
+}
+
+.events-card {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+	margin-bottom: 2rem;
+}
+
+.card-header-title {
+	color: #8F99A3;
+	font-weight: 400;
+}
+
+.info-tiles {
+	margin: 1rem 0;
+}
+
+.info-tiles .subtitle {
+	font-weight: 300;
+	color: #8F99A3;
+}
+
+.hero.welcome.is-info {
+	background: linear-gradient(to right, #00bdb1, #36D1DC);
+}
+
+.hero.welcome .title,
+.hero.welcome .subtitle {
+	color: hsl(192, 17%, 99%);
+}
+
+.events-car .content-card-table {
+	font-size: 14px;
+}
+
+.card-footer-item {
+	font-size: 14px;
+	font-weight: 700;
+	color: #8F99A3;
+}
+
+.card-table .table {
+	margin-bottom: 0;
+}
+
+.events-card .card-table {
+	max-height: 250px;
+	overflow-y: scroll;
+}
+
+.c54610 {
+	font-style: normal;
+}
+
+.column.is-6 {
+	float: none;
+	position: static;
+	width: auto;
+}
+
+
+
+/* EXPLORAR */
+
+
+
+
+
+
+/* SOBRE NÓS */
+
+.sobre {
+    width: 90%;
+    margin-left: 55px;
+    margin-top: 70px;
+}
+
+.img_sobre {
+    width: 95%;
+    transition: .5s ease;
+}
+
+.img_sobre:hover {
+    opacity: .8;
+}
+
+
+
+
+/* CONTATO */
+
+.contato_form {
+    margin: 65px auto;
+    width: 40%;
+    background-color: #efefef;
+    padding: 35px;
+    font-size: 15px;
+}
+
+.titulo_contato {
+    margin-bottom: 25px;
+    font-size: 38px;
+}
+
+.txt_contato {
+    margin-bottom: 25px;
+}
+
+.contato_campo {
+    border-radius: 0;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    padding: 8px;
+}
+
+.contato_campo:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.area_texto {
+    width: 100%;
+    border: 0;
+}
+
+.area_texto:focus {
+    outline: none;
+}
+
+.btn_contato {
+    background-color: #00bdb1;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 4px 15px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #FF3B3E;
+}
+
+
+
+
+
+/* POSTAEM */
 
