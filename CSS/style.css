@@ -1,6 +1,12 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    color: #212121;
+    font-size: 15px;
+}
+
+button, input, select, textarea {
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -14,7 +20,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     position: fixed;
-    width: 18%;
+    width: 245px;
     height: 100%;
     padding: 30px 35px;
     z-index: 1;
@@ -90,6 +96,7 @@ body {
     color: #ffffff;
     box-sizing: border-box;
     font-size: 14px;
+    background-color: #FF3B3E;
 }
 
 .topo_btn:focus {
@@ -433,6 +440,35 @@ a {
 
 /* PERFIL */
 
+.breadcrumb ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.breadcrumb a {
+    color: #212121;
+}
+
+.breadcrumb a:hover {
+    color: #FF3B3E;
+}
+
+.box {
+    border-radius: 0px;
+    transition: ease .5s;
+}
+
+.box:hover {
+    background-color: #00bdb1;
+    color: #fff;
+}
+
+.tile.is-parent {
+    padding: 1.75rem;
+}
+
 .columns {
 	width: 100%;
 	margin-left: 0;
@@ -450,8 +486,10 @@ a {
 }
 
 .card-header-title {
-	color: #8F99A3;
-	font-weight: 400;
+	color: #212121;
+    font-weight: normal;
+    padding-left: 50px;
+    font-size: 1.25rem;
 }
 
 .info-tiles {
@@ -464,12 +502,13 @@ a {
 }
 
 .hero.welcome.is-info {
-	background: linear-gradient(to right, #00bdb1, #36D1DC);
+	background: #fff;
 }
 
 .hero.welcome .title,
 .hero.welcome .subtitle {
-	color: hsl(192, 17%, 99%);
+    color: #212121;
+    font-weight: normal;
 }
 
 .events-car .content-card-table {
@@ -479,7 +518,7 @@ a {
 .card-footer-item {
 	font-size: 14px;
 	font-weight: 700;
-	color: #8F99A3;
+	color: #212121;
 }
 
 .card-table .table {
@@ -489,6 +528,12 @@ a {
 .events-card .card-table {
 	max-height: 250px;
 	overflow-y: scroll;
+}
+
+.events-card {
+    box-shadow: none;
+    background-color: #efefef;
+
 }
 
 .c54610 {
@@ -501,6 +546,44 @@ a {
 	width: auto;
 }
 
+.title-cd {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.table td {
+    border: none;
+}
+
+.table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+    background-color: #efefef;
+}
+
+a.card-footer-item:hover {
+    color: #FF3B3E;
+}
+
+.button-cmt {
+    background-color: #00bdb1;
+    color: #fff;
+    padding: 6px;
+    border-radius: 22px;
+}
+
+.button-cmt:hover {
+    background-color: #FF3B3E;
+    color: #fff;
+}
+
+.breadcrumb li+li::before {
+    color: #212121;
+    content: "|";
+}
+
+.card-footer {
+    background-color: #efefef;
+    border-top: none;
+}
 
 
 /* EXPLORAR */
@@ -586,7 +669,13 @@ a {
     background-color: #FF3B3E;
 }
 
+a.card-header-icon {
+    color: #212121;
+}
 
+a.card-header-icon:hover {
+    color:#FF3B3E;
+}
 
 
 
