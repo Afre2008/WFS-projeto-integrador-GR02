@@ -407,10 +407,11 @@ a {
   position: absolute;
   top: 0px;
   width: 82%;   
-  padding: 20px 6% 55px 6%;
+  padding: 20px 6% 66px 6%;
   margin: 65px;;
   background: #efefef;
   border-radius: 0px;
+  /* -webkit-box-shadow: 5px; */
   -webkit-animation-duration: 0.5s;
   -webkit-animation-timing-function: ease;
   -webkit-animation-fill-mode: both;
