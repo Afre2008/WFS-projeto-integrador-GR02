@@ -1,8 +1,54 @@
+/* inclusão deste img para tentar fazer a tela responsiva */
+img {
+    max-width: 100%;
+ }
 
+/* inclusão deste container para tentar fazer a tela responsiva */
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+ }
+
+ /* utilizada para conter os floats e evitar que elementos entrem em colapso */
+ .clearfix:before,
+.clearfix:after {
+   content: " ";
+   display: table;
+}
+
+.clearfix:after {
+   clear: both;
+}
+
+.clearfix {
+   *zoom: 1;
+}
+
+/* garantir que tudo possa ficar com 100% do tamanho no original */
+img,
+picture,
+video,
+embed {
+   max-width: 100%;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+
+
+
+
+
+
+
+
+ /* alterações até aqui */
 body {
     font-family: 'Raleway', sans-serif;
 }
-
 
 
 /* TOPO E NAVBAR */
@@ -10,6 +56,8 @@ body {
 .menu {
     background-color: #00bdb1;
     color: #ffffff;
+    /* color: red; */
+
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -593,3 +641,16 @@ a {
 
 /* POSTAEM */
 
+
+
+/* @media para fazer a tela responsiva */
+@media screen and (max-width: 1128px) {
+    .container {
+       padding: 0 2.4em 0 2.4em;
+    }
+    }
+    @media screen and (min-width: 1024px) 
+    { #main { min-width: 1000px; }
+}
+    /* @media screen and (min-width: 200px) and (max-width: 640px); */
+    
