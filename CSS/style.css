@@ -58,9 +58,14 @@ input {
         padding: 100px;
     }
 
-    .menu_btn_post {
+    /* .menu_btn_post {
         padding: 15px !important;
-    }
+    } */
+
+    /* .menu_btn_post2 {
+        padding: 15px !important;
+    } */
+
 
 }
 
@@ -94,18 +99,17 @@ input {
     color: #ffffff;
     padding: 3px;
     border-radius: 30px;
-    /* margin-top: 38px; */
     font-size: 17px;
     transition: all .1s ease-in-out;
 }
 
-.menu_btn_post:hover {
+/* .menu_btn_post:hover {
     transform: scale(1.1);
 }
 
 .menu_btn_post:focus {
     outline: 0;
-}
+} */
 
 .conteudo {
     display: flex;

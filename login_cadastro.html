@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-  
 <html lang="pt-br">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- inclusao da linha abaixo - responsivo -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
+<head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Cupom UP! - Login | Cadastro</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="CSS/style.css">
-  
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <title>Cupom UP! - Login | Cadastro</title>
 </head>
 
 <body>
   <header class="menu row">
     <div class="col col-sm-12">
-        <div class="menu_logo"><img src="./imagens/menu_logo.png" alt="logo"></div>
+      <div class="menu_logo"><img src="./imagens/menu_logo.png" alt="logo"></div>
       <nav class="menu_nav">
         <ul class="menu_nav_lista">
           <li><a href="index.html">Página Inicial</a></li>
-            <li><a href="perfil.html">Perfil</a></li>
-            <li><a href="explorar.html">Explorar</a></li>
-            <li><a href="sobre.html">Sobre Nós</a></li>
-        <li><a href="contato.html">Contato</a></li>
+          <li><a href="perfil.html">Perfil</a></li>
+          <li><a href="explorar.html">Explorar</a></li>
+          <li><a href="sobre.html">Sobre Nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
         </ul>
       </nav>
-      <div class="col botao-postar">
+      <button class="menu_btn_post">Postar Cupom</button>
+
+      <!-- <div class="col botao-postar">
         <button class="menu_btn_post">Postar Cupom</button>
-      </div>
+      </div> -->
 
     </div>
   </header>
@@ -38,79 +37,87 @@
     <section class="topo">
       <div class="topo_busca">
         <form action="search" class="search_form" method="get">
-            <input id="btn_busca" class="btn_busca" type="submit"/>
-            <input id="txt_busca" class="txt_busca" name="q" type="text" value="" placeholder="Buscar cupom" />
+          <input id="btn_busca" class="btn_busca" type="submit" />
+          <input id="txt_busca" class="txt_busca" name="q" type="text" value="" placeholder="Buscar cupom" />
         </form>
       </div>
-      <form method="get" action="./login_cadastro.html"><button class="topo_btn" type="submit">Login/Cadastro</button></form>
+      <form method="get" action="./login_cadastro.html"><button class="topo_btn" type="submit">Login/Cadastro</button>
+      </form>
     </section>
 
     <!-- FIM DA NAVBAR E TOPO -->
 
     <!-- INICIO FORMULÁRIOS -->
     <section class="login_cadastro">
-      <div class="container" >
+      <div class="container">
         <a class="links" id="paracadastro"></a>
         <a class="links" id="paralogin"></a>
-      <div class="content">      
+        <div class="content">
 
-    <!--FORMULÁRIO DE LOGIN-->
+          <!--FORMULÁRIO DE LOGIN-->
 
-      <div id="login" class="login-form">
-        <form method="post" action=""> 
-            <h1 class="titulo_form">Login</h1> 
-            <p>
-                <a href="#" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i>Entre com <b>Facebook</b></a>
+          <div id="login" class="login-form">
+            <form method="post" action="">
+              <h1 class="titulo_form">Login</h1>
+              <p>
+                <a href="#" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i>Entre com
+                  <b>Facebook</b></a>
                 <a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i>Entre com <b>Google</b></a>
-            </p>
-            <span class="span-ou">- OU -</span>
-            <p> 
-              <label for="email_login">E-mail</label>
-              <input class="campo_form" id="email_login" name="email_login" required="required" type="password" placeholder="nome@exemplo.com" /> 
-            </p>
-            <p> 
-              <label for="senha_cad">Senha</label>
-              <input class="campo_form" id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
-            </p>
-            <p> 
-              <input class="logado" type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
-              <label for="manterlogado">Manter-me logado</label>
-            </p>
-            <p> 
-              <input class="btn_cadastro_login" type="submit" value="Logar"/> 
-            </p>
-            <p class="link">
-              Ainda não tem conta?
-              <a href="#paracadastro">Cadastre-se</a>
-            </p>
-        </form>
-      </div>
- 
-      <!--FORMULÁRIO DE CADASTRO-->
-      <div id="cadastro">
-        <form method="post" action=""> 
-          <h1 class="titulo_form">Cadastro</h1> 
-          <p>
-              <a href="#" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i>Entre com <b>Facebook</b></a>
-              <a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i>Entre com <b>Google</b></a>
-          </p>
-          <span class="span-ou">- OU -</span>
-            <p> 
-              <label for="nome_cad">Nome Completo</label>
-              <input class="campo_form" id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Nome completo" />
-            </p>
-            <p> 
-              <label for="email_cad">E-mail</label>
-              <input class="campo_form" id="email_cad" name="email_cad" required="required" type="email" placeholder="nome@exemplo.com"/> 
-            </p>
-            <p> 
-              <label for="senha_cad">Senha</label>
-              <input class="campo_form" id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
-            </p>
-            <p> 
-              <input class="btn_cadastro_login" type="submit" value="Cadastrar"/> 
-            </p>
-              <p class="link">  
+              </p>
+              <span class="span-ou">- OU -</span>
+              <p>
+                <label for="email_login">E-mail</label>
+                <input class="campo_form" id="email_login" name="email_login" required="required" type="password"
+                  placeholder="nome@exemplo.com" />
+              </p>
+              <p>
+                <label for="senha_cad">Senha</label>
+                <input class="campo_form" id="senha_cad" name="senha_cad" required="required" type="password"
+                  placeholder="ex. 1234" />
+              </p>
+              <p>
+                <input class="logado" type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                <label for="manterlogado">Manter-me logado</label>
+              </p>
+              <p>
+                <input class="btn_cadastro_login" type="submit" value="Logar" />
+              </p>
+              <p class="link">
+                Ainda não tem conta?
+                <a href="#paracadastro">Cadastre-se</a>
+              </p>
+            </form>
+          </div>
+
+          <!--FORMULÁRIO DE CADASTRO-->
+          <div id="cadastro">
+            <form method="post" action="">
+              <h1 class="titulo_form">Cadastro</h1>
+              <p>
+                <a href="#" class="btn btn-primary btn-block"><i class="fa fa-facebook"></i>Entre com
+                  <b>Facebook</b></a>
+                <a href="#" class="btn btn-danger btn-block"><i class="fa fa-google"></i>Entre com <b>Google</b></a>
+              </p>
+              <span class="span-ou">- OU -</span>
+              <p>
+                <label for="nome_cad">Nome Completo</label>
+                <input class="campo_form" id="nome_cad" name="nome_cad" required="required" type="text"
+                  placeholder="Nome completo" />
+              </p>
+              <p>
+                <label for="email_cad">E-mail</label>
+                <input class="campo_form" id="email_cad" name="email_cad" required="required" type="email"
+                  placeholder="nome@exemplo.com" />
+              </p>
+              <p>
+                <label for="senha_cad">Senha</label>
+                <input class="campo_form" id="senha_cad" name="senha_cad" required="required" type="password"
+                  placeholder="ex. 1234" />
+              </p>
+              <p>
+                <input class="btn_cadastro_login" type="submit" value="Cadastrar" />
+              </p>
+              <p class="link">
                 Já tem uma conta?
                 <a href="#paralogin"> Ir para Login </a>
               </p>
@@ -118,12 +125,18 @@
           </div>
         </div>
       </div>
-      </section>
-    </main>
+    </section>
+  </main>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>
-
